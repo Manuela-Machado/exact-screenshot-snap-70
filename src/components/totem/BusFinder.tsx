@@ -33,7 +33,7 @@ export function BusFinder() {
           <div className="flex-1 rounded-2xl bg-primary p-4 text-primary-foreground">
             <div className="text-sm opacity-80">Chega nesta parada em</div>
             <div className="font-display text-4xl font-bold">
-              {st.etaMin != null ? `${st.etaMin} min` : "Sem viagens hoje"}
+              {st.etaMin != null ? (st.etaMin >= 60 ? `${Math.floor(st.etaMin / 60)}h${String(st.etaMin % 60).padStart(2, "0")}` : `${st.etaMin} min`) : "Sem viagens hoje"}
             </div>
             <div className="mt-1 text-xs opacity-80">Posição estimada (simulação)</div>
           </div>
