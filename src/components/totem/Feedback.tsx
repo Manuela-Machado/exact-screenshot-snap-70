@@ -68,7 +68,7 @@ export function Feedback({ onDone }: { onDone: () => void }) {
       <Field label="Linha" value={line} onChange={(v) => { setLine(v); setTime(""); }} options={[NONE, ...LINES.map((l) => `${l.code} — ${l.name}`)]} />
       <Field label="Dia da semana" value={day} onChange={(v) => { setDay(v); setTime(""); }} options={[NONE, ...DAYS]} />
       <Field label="Horário" value={time} onChange={setTime} options={[NONE, ...times]} />
-      <Field label="Mensagem" value={msg} onChange={setMsg} options={cat ? CATS[cat] : []} />
+      <Field label="Mensagem" value={msg} onChange={setMsg} options={(cat && CATS[cat]) || []} />
       <button disabled={!ok} onClick={() => setSent(true)} className="rounded-2xl bg-primary py-4 text-xl font-bold text-primary-foreground disabled:opacity-40">
         Enviar feedback
       </button>
