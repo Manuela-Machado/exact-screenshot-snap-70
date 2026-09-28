@@ -38,7 +38,7 @@ export function dayType(d = new Date()) {
 
 const toMin = (t: string) => {
   const [h, m] = t.split(":").map(Number);
-  return h * 60 + m;
+  return (h ?? 0) * 60 + (m ?? 0);
 };
 
 export function upcoming(line: Line, now = new Date(), n = 5) {
@@ -53,10 +53,8 @@ function along(route: [number, number][], p: number): [number, number] {
   const f = Math.min(Math.max(p, 0), 1) * (route.length - 1);
   const i = Math.min(Math.floor(f), route.length - 2);
   const k = f - i;
-  return [
-    route[i][0] + (route[i + 1][0] - route[i][0]) * k,
-    route[i][1] + (route[i + 1][1] - route[i][1]) * k,
-  ];
+  const a = route[i]!, b = route[i + 1]!;
+  return [a[0] + (b[0] - a[0]) * k, a[1] + (b[1] - a[1]) * k];
 }
 
 /** Posição simulada do ônibus. Única função a trocar por uma fonte real. */
@@ -78,7 +76,7 @@ export function busStatus(line: Line, now = new Date()) {
   }
   const next = upcoming(line, now, 1)[0];
   return {
-    position: route[0],
+    position: route[0]!,
     etaMin: next ? Math.round(toMin(next.time) - cur + TRIP_MIN / 2) : null,
     trip: next ?? null,
     route,
