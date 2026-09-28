@@ -18,8 +18,8 @@ export function AdBanner() {
       {ADS.map((a, k) => (
         <div key={a.title} className={`absolute inset-0 flex flex-col justify-center px-12 transition-opacity duration-1000 ${a.cls} ${k === i ? "opacity-100" : "opacity-0"}`}>
           <span className="mb-3 w-fit rounded-full bg-background/20 px-4 py-1 text-sm font-semibold uppercase tracking-widest">{a.tag}</span>
-          <h3 className="font-display text-5xl font-bold leading-tight">{a.title}</h3>
-          <p className="mt-4 max-w-2xl text-2xl opacity-90">{a.text}</p>
+          <h3 className="font-display text-4xl font-bold leading-tight">{a.title}</h3>
+          <p className="mt-3 max-w-3xl text-xl leading-snug opacity-90">{a.text}</p>
         </div>
       ))}
       <div className="absolute bottom-5 left-12 flex gap-2">

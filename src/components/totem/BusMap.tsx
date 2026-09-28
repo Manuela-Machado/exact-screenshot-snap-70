@@ -18,6 +18,7 @@ export default function BusMap({ line }: { line: Line }) {
       center: TOTEM_STOP,
       zoom: 12.5,
     });
+    const resizeFrame = requestAnimationFrame(() => map.resize());
     const stopEl = document.createElement("div");
     stopEl.className = "totem-stop-marker";
     new mapboxgl.Marker({ element: stopEl }).setLngLat(TOTEM_STOP).addTo(map);
@@ -40,12 +41,14 @@ export default function BusMap({ line }: { line: Line }) {
       });
       const b = new mapboxgl.LngLatBounds();
       st.route.forEach((p) => b.extend(p));
-      map.fitBounds(b, { padding: 60, duration: 0 });
+      map.resize();
+      map.fitBounds(b, { padding: 36, duration: 0, maxZoom: 14 });
     });
 
     const iv = setInterval(() => bus.setLngLat(busStatus(line).position), 5000);
     return () => {
       clearInterval(iv);
+      cancelAnimationFrame(resizeFrame);
       map.remove();
     };
   }, [line]);

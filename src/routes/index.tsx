@@ -62,10 +62,10 @@ function Totem() {
   ];
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-muted">
-      <div className="flex h-screen w-full max-w-[min(100vw,56.25vh)] flex-col overflow-hidden bg-background shadow-2xl" style={{ aspectRatio: "9 / 16" }}>
-        <div className="flex h-2/3 flex-col">
-          <header className="flex items-center justify-between bg-primary px-6 py-4 text-primary-foreground">
+    <div className="flex min-h-screen items-center justify-center overflow-hidden bg-muted">
+      <div className="grid h-screen w-full max-w-[min(100vw,62.5vh)] grid-rows-[3fr_1fr] overflow-hidden bg-background shadow-2xl" style={{ aspectRatio: "5 / 8" }}>
+        <div className="flex min-h-0 flex-col">
+          <header className="flex shrink-0 items-center justify-between bg-primary px-8 py-5 text-primary-foreground">
             <div className="flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary-foreground text-primary"><Bus className="h-7 w-7" /></div>
               <div>
@@ -77,45 +77,45 @@ function Totem() {
           </header>
 
           {screen !== "home" && screen !== "menu" && (
-            <nav className="flex gap-2 border-b px-6 py-3">
-              <button onClick={() => setScreen("menu")} className="flex items-center gap-2 rounded-xl bg-secondary px-4 py-2 text-lg font-semibold text-secondary-foreground"><ArrowLeft className="h-5 w-5" /> Voltar</button>
+            <nav className="flex shrink-0 gap-2 border-b px-6 py-3">
+              <button onClick={() => setScreen("menu")} className="flex items-center gap-2 rounded-lg bg-secondary px-4 py-2 text-lg font-semibold text-secondary-foreground"><ArrowLeft className="h-5 w-5" /> Voltar</button>
               <div className="flex flex-1 justify-end gap-2">
                 {menu.map((m) => (
-                  <button key={m.id} onClick={() => setScreen(m.id)} className={`rounded-xl px-3 py-2 text-sm font-semibold ${screen === m.id ? "bg-primary text-primary-foreground" : "bg-secondary text-secondary-foreground"}`}>{m.label}</button>
+                  <button key={m.id} onClick={() => setScreen(m.id)} className={`rounded-lg px-3 py-2 text-sm font-semibold ${screen === m.id ? "bg-primary text-primary-foreground" : "bg-secondary text-secondary-foreground"}`}>{m.label}</button>
                 ))}
               </div>
             </nav>
           )}
 
-          <main className="min-h-0 flex-1 p-6">
+          <main className="min-h-0 flex-1 overflow-hidden p-6">
             {screen === "home" && (
-              <div className="flex h-full flex-col justify-center gap-6">
-                <div>
-                  <h1 className="font-display text-5xl font-bold leading-tight">Olá! <span className="text-primary">Como usar o totem</span></h1>
-                </div>
-                <ol className="space-y-3">
+              <div className="grid h-full min-h-0 grid-rows-[auto_1fr_auto] gap-5 py-2">
+                <h1 className="font-display text-5xl font-bold leading-[1.12]">Olá! <span className="block text-primary">Como usar o totem</span></h1>
+                <ol className="grid min-h-0 grid-cols-2 gap-4">
                   {STEPS.map((s, i) => (
-                    <li key={i} className="flex items-center gap-4 rounded-2xl bg-card p-4 shadow-sm ring-1 ring-border">
+                    <li key={i} className="flex min-h-0 items-center gap-4 rounded-xl border bg-card p-5">
                       <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary font-display text-2xl font-bold text-primary-foreground">{i + 1}</span>
-                      <span className="text-xl">{s}</span>
+                      <span className="text-xl leading-snug">{s}</span>
                     </li>
                   ))}
                 </ol>
-                <button onClick={() => setScreen("menu")} className="animate-pulse rounded-3xl bg-primary py-6 font-display text-4xl font-bold text-primary-foreground shadow-lg">Iniciar</button>
+                <button onClick={() => setScreen("menu")} className="rounded-xl bg-primary py-5 font-display text-3xl font-bold text-primary-foreground shadow-sm active:scale-[0.99]">Iniciar</button>
               </div>
             )}
             {screen === "menu" && (
-              <div className="flex h-full flex-col gap-5">
+              <div className="grid h-full min-h-0 grid-rows-[auto_1fr] gap-5 py-2">
                 <div className="flex items-center justify-between">
                   <h2 className="font-display text-3xl font-bold">O que você precisa?</h2>
-                  <button onClick={() => setScreen("home")} aria-label="Início" className="rounded-xl bg-secondary p-3"><Home /></button>
+                  <button onClick={() => setScreen("home")} aria-label="Início" className="rounded-lg border bg-card p-3 text-primary"><Home /></button>
                 </div>
-                {menu.map((m) => (
-                  <button key={m.id} onClick={() => setScreen(m.id)} className="flex flex-1 items-center gap-6 rounded-3xl bg-primary px-8 text-left text-primary-foreground shadow-lg active:scale-[0.98]">
-                    <m.icon className="h-16 w-16 shrink-0" />
-                    <span className="font-display text-3xl font-bold">{m.label}</span>
-                  </button>
-                ))}
+                <div className="grid min-h-0 grid-rows-3 gap-4">
+                  {menu.map((m) => (
+                    <button key={m.id} onClick={() => setScreen(m.id)} className="group flex min-h-0 items-center gap-6 rounded-xl border-2 border-border bg-card px-8 text-left transition-colors active:border-primary active:bg-accent">
+                      <span className="flex h-16 w-16 shrink-0 items-center justify-center rounded-lg bg-secondary text-primary"><m.icon className="h-9 w-9" /></span>
+                      <span className="font-display text-3xl font-semibold text-foreground">{m.label}</span>
+                    </button>
+                  ))}
+                </div>
               </div>
             )}
             {screen === "bus" && <BusFinder />}
@@ -123,7 +123,7 @@ function Totem() {
             {screen === "feedback" && <Feedback onDone={() => setScreen("menu")} />}
           </main>
         </div>
-        <div className="h-1/3 border-t-4 border-primary">
+        <div className="min-h-0 border-t-4 border-primary">
           <AdBanner />
         </div>
       </div>
