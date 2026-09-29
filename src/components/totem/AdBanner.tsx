@@ -16,16 +16,16 @@ export function AdBanner() {
   return (
     <div className="relative h-full overflow-hidden">
       {ADS.map((a, k) => (
-        <div key={a.title} className={`absolute inset-0 flex flex-col justify-center px-12 transition-opacity duration-1000 ${a.cls} ${k === i ? "opacity-100" : "opacity-0"}`}>
-          <span className="mb-3 w-fit rounded-full bg-background/20 px-4 py-1 text-sm font-semibold uppercase tracking-widest">{a.tag}</span>
-          <h3 className="font-display text-4xl font-bold leading-tight">{a.title}</h3>
-          <p className="mt-3 max-w-3xl text-xl leading-snug opacity-90">{a.text}</p>
+        <div key={a.title} className={`absolute inset-0 flex flex-col justify-center px-14 transition-opacity duration-1000 ${a.cls} ${k === i ? "opacity-100" : "opacity-0"}`}>
+          <span className="mb-4 w-fit rounded-full bg-background/20 px-5 py-2 text-base font-semibold uppercase tracking-widest">{a.tag}</span>
+          <h3 className="font-display text-5xl font-bold leading-tight">{a.title}</h3>
+          <p className="mt-4 max-w-4xl text-2xl leading-snug opacity-90">{a.text}</p>
         </div>
       ))}
-      <div className="absolute bottom-5 left-12 flex gap-2">
+      <div className="absolute bottom-7 left-14 flex gap-3">
         {ADS.map((_, k) => <span key={k} className={`h-2 rounded-full bg-background/70 transition-all ${k === i ? "w-10" : "w-2 opacity-50"}`} />)}
       </div>
-      <span className="absolute right-5 top-4 text-xs uppercase tracking-widest opacity-60">Publicidade</span>
+      <span className="absolute right-7 top-6 text-sm uppercase tracking-widest opacity-60">Publicidade</span>
     </div>
   );
 }
