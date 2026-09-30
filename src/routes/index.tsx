@@ -70,10 +70,11 @@ function Totem() {
   ];
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-muted">
+    <div className="flex h-screen w-screen justify-center overflow-hidden bg-muted">
+      <div style={{ width: 1440 * scale, height: 2304 * scale }}>
       <div
-        className="absolute left-1/2 top-0 grid h-[2304px] w-[1440px] -translate-x-1/2 grid-rows-[3fr_1fr] overflow-hidden bg-background shadow-2xl"
-        style={{ transform: `translateX(-50%) scale(${scale})`, transformOrigin: "top center" }}
+        className="grid h-[2304px] w-[1440px] grid-rows-[3fr_1fr] overflow-hidden bg-background shadow-2xl"
+        style={{ transform: `scale(${scale})`, transformOrigin: "top left" }}
       >
         <div className="flex min-h-0 flex-col">
           <header className="grid shrink-0 grid-cols-[minmax(0,1fr)_auto] items-center gap-8 bg-primary px-10 py-6 text-primary-foreground">
@@ -137,6 +138,7 @@ function Totem() {
         <div className="min-h-0 border-t-4 border-primary">
           <AdBanner />
         </div>
+      </div>
       </div>
     </div>
   );
