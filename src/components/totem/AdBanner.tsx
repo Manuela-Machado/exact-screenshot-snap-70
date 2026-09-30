@@ -17,9 +17,9 @@ export function AdBanner() {
     <div className="relative h-full overflow-hidden">
       {ADS.map((a, k) => (
         <div key={a.title} className={`absolute inset-0 flex flex-col justify-center px-14 transition-opacity duration-1000 ${a.cls} ${k === i ? "opacity-100" : "opacity-0"}`}>
-          <span className="mb-4 w-fit rounded-full bg-background/20 px-5 py-2 text-base font-semibold uppercase tracking-widest">{a.tag}</span>
-          <h3 className="font-display text-5xl font-bold leading-tight">{a.title}</h3>
-          <p className="mt-4 max-w-4xl text-2xl leading-snug opacity-90">{a.text}</p>
+          <span className="mb-5 w-fit rounded-full bg-background/20 px-6 py-3 text-xl font-bold uppercase tracking-widest">{a.tag}</span>
+          <h3 className="font-display text-7xl font-bold leading-tight">{a.title}</h3>
+          <p className="mt-5 max-w-5xl text-3xl font-medium leading-snug opacity-95">{a.text}</p>
         </div>
       ))}
       <div className="absolute bottom-7 left-14 flex gap-3">
