@@ -102,7 +102,7 @@ function Totem() {
           <main className="min-h-0 flex-1 overflow-hidden p-8">
             {screen === "home" && (
               <div className="grid h-full min-h-0 grid-rows-[auto_1fr_auto] gap-7 py-2">
-                <h1 className="font-display text-6xl font-bold leading-[1.12]">Olá! <span className="block text-primary">Como usar o totem</span></h1>
+                <h1 className="font-display text-6xl font-bold leading-[1.2]">Olá! <span className="block text-primary">Como usar o totem</span></h1>
                 <ol className="grid min-h-0 grid-cols-2 gap-6">
                   {STEPS.map((s, i) => (
                     <li key={i} className="flex min-h-0 items-center gap-6 rounded-xl border bg-card p-7">
@@ -117,7 +117,7 @@ function Totem() {
             {screen === "menu" && (
               <div className="grid h-full min-h-0 grid-rows-[auto_1fr] gap-7 py-2">
                 <div className="flex items-center justify-between">
-                  <h2 className="font-display text-5xl font-bold">O que você precisa?</h2>
+                  <h2 className="font-display text-5xl font-bold leading-tight">O que você precisa?</h2>
                   <button onClick={() => setScreen("home")} aria-label="Início" className="rounded-lg border bg-card p-4 text-primary"><Home className="h-7 w-7" /></button>
                 </div>
                 <div className="grid min-h-0 grid-rows-3 gap-4">
