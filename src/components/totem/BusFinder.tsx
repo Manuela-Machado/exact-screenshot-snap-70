@@ -90,11 +90,11 @@ export function BusFinder() {
             </div>
           </div>
         </div>
-        <div className="min-h-0 space-y-2 overflow-y-auto pr-1">
+        <div className="grid min-h-0 auto-rows-fr gap-1 overflow-hidden pr-1">
           {results.map((l) => (
-            <button key={l.code} onClick={() => setSel(l)} className="flex w-full items-center gap-3 rounded-lg border bg-card p-3 text-left active:bg-accent">
-              <span className="min-w-16 rounded-md bg-primary px-3 py-2 text-center font-display text-lg font-bold text-primary-foreground">{l.code}</span>
-              <span className="flex-1 text-lg font-semibold leading-tight">{l.name}</span>
+            <button key={l.code} onClick={() => setSel(l)} className="flex min-h-0 w-full items-center gap-3 rounded-lg border bg-card px-3 py-1 text-left active:bg-accent">
+              <span className="min-w-16 rounded-md bg-primary px-3 py-1.5 text-center font-display text-base font-bold text-primary-foreground">{l.code}</span>
+              <span className="flex-1 text-base font-semibold leading-tight">{l.name}</span>
               <MapPin className="shrink-0 text-primary" />
             </button>
           ))}

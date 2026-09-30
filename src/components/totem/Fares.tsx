@@ -19,7 +19,7 @@ export function Fares() {
       <h2 className="font-display text-3xl font-bold">Alterações e tarifas</h2>
       <div className="rounded-2xl bg-primary p-5 text-primary-foreground">
         <div className="text-lg opacity-90">Tarifa municipal</div>
-        <div className="font-display text-5xl font-bold">R$ 8,50</div>
+        <div className="font-display text-5xl font-bold leading-tight">R$ 8,50</div>
       </div>
       <div className="grid grid-cols-2 items-start gap-4">
       {GROUPS.map((g) => (
