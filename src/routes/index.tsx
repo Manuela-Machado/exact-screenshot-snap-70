@@ -102,7 +102,7 @@ function Totem() {
           <main className="min-h-0 flex-1 overflow-hidden p-10">
             {screen === "home" && (
               <div className="grid h-full min-h-0 grid-rows-[auto_1fr_auto] gap-8 py-2">
-                <h1 className="font-display text-7xl font-bold leading-[1.15]">Olá! <span className="block text-primary">Como usar o totem</span></h1>
+                <h1 className="font-display text-7xl font-bold leading-[1.15]">Olá! <span className="block text-primary">Como usar o totem?</span></h1>
                 <ol className="grid min-h-0 grid-rows-4 gap-5">
                   {STEPS.map((s, i) => (
                     <li key={i} className="flex min-h-0 items-center gap-8 rounded-2xl border-2 bg-card px-10 py-6">
