@@ -1,0 +1,697 @@
+﻿linha_codigo;linha_nome;sentido_origem;dia_tipo;plano_operacional;horario;variante_num;variante_itinerario
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;05:35;1;Costa do Ipiranga / Centro via Cova do Touro / Asilo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:50;2;Costa do Ipiranga / Centro via Tom Jobim / Rosa Maria / Neópolis – Colegial
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;08:10;3;Costa do Ipiranga / Centro via Asilo / Chaparral / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;09:30;4;Costa do Ipiranga / Centro via Asilo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;10:30;5;Costa do Ipiranga / Centro via Cova do Touro / Asilo / Mangueira / Rosa Maria / Palermo / Corcunda
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:25;6;Costa do Ipiranga / Centro via Betânia / Neópolis – Colegial
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;12:00;7;Costa do Ipiranga / Centro via Morro Agudo / Cova do Touro / Asilo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;12:10;1;Costa do Ipiranga / Centro via Cova do Touro / Asilo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;13:20;4;Costa do Ipiranga / Centro via Asilo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:00;8;Costa do Ipiranga / Centro via Asilo / Mangueira / Tom Jobim
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:40;9;Costa do Ipiranga / Centro via Betânia
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;18:30;1;Costa do Ipiranga / Centro via Cova do Touro / Asilo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Dia útil;Plano Verão – Municipal 2;23:05;10;Costa do Ipiranga via Rincão / Morro Agudo / Santa Tecla / Asilo – Colegial
+CI;Costa do Ipiranga;Saída do Centro;Sábado;Urbano Gravataí;11:00;8;Costa do Ipiranga / Centro via Asilo / Mangueira / Tom Jobim
+CI;Costa do Ipiranga;Saída do Centro;Sábado;Urbano Gravataí;12:20;11;Costa do Ipiranga via Morro Agudo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Sábado;Urbano Gravataí;17:35;8;Costa do Ipiranga / Centro via Asilo / Mangueira / Tom Jobim
+CI;Costa do Ipiranga;Saída do Centro;Sábado;Urbano Gravataí;18:55;11;Costa do Ipiranga via Morro Agudo / Mangueira
+CI;Costa do Ipiranga;Saída do Centro;Domingo;Urbano Gravataí;11:00;8;Costa do Ipiranga / Centro via Asilo / Mangueira / Tom Jobim
+CI;Costa do Ipiranga;Saída do Centro;Domingo;Urbano Gravataí;17:35;8;Costa do Ipiranga / Centro via Asilo / Mangueira / Tom Jobim
+CI;Costa do Ipiranga;Saída do Centro;Domingo;Urbano Gravataí;19:00;11;Costa do Ipiranga via Morro Agudo / Mangueira
+MA1;Mato Alto;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:30;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Dia útil;Plano Verão – Municipal 2;07:20;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:10;7;Cavalhada
+MA1;Mato Alto;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:16;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Dia útil;Plano Verão – Municipal 2;18:50;8;Cavalhada via Bradesco
+MA1;Mato Alto;Saída do Centro;Dia útil;Plano Verão – Municipal 2;23:10;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Sábado;Urbano Gravataí;10:20;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Sábado;Urbano Gravataí;13:30;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Sábado;Urbano Gravataí;18:30;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Domingo;Urbano Gravataí;08:33;7;Cavalhada
+MA1;Mato Alto;Saída do Centro;Domingo;Urbano Gravataí;10:00;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Domingo;Urbano Gravataí;16:00;6;Mato Alto
+MA1;Mato Alto;Saída do Centro;Domingo;Urbano Gravataí;18:05;6;Mato Alto
+MA1;Mato Alto;Saída do Verdes Campos;Dia útil;Plano Verão – Municipal 2;05:06;1;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Dia útil;Plano Verão – Municipal 2;05:30;2;Centro via Astória
+MA1;Mato Alto;Saída do Verdes Campos;Dia útil;Plano Verão – Municipal 2;06:20;3;Centro via Bradesco
+MA1;Mato Alto;Saída do Verdes Campos;Dia útil;Plano Verão – Municipal 2;12:15;3;Centro via Bradesco
+MA1;Mato Alto;Saída do Verdes Campos;Dia útil;Plano Verão – Municipal 2;22:05;4;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Sábado;Urbano Gravataí;07:30;5;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Sábado;Urbano Gravataí;08:33;1;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Sábado;Urbano Gravataí;10:45;5;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Sábado;Urbano Gravataí;14:15;5;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Sábado;Urbano Gravataí;16:33;1;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Sábado;Urbano Gravataí;17:30;5;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Domingo;Urbano Gravataí;07:30;5;Centro
+MA1;Mato Alto;Saída do Verdes Campos;Domingo;Urbano Gravataí;14:00;5;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;05:05;4;Centro via Cerro Azul
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;06:10;5;Santa Cruz via Morada do Vale 1 e 2 / Las Palmas / David Canabarro
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;06:30;6;Centro via Parada 110 / Las Palmas
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;08:15;7;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;10:15;8;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;11:40;9;Centro via Esc. São Paulo / Las Palmas / Morada do Vale 2 e 1
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;12:20;10;Santa Cruz via Fazenda Conceição / Fazenda Vargas / Parada 104
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;12:45;11;Centro via Cerro Azul / Las Palmas
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;14:30;8;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;16:35;12;Santa Cruz via Las Palmas
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;16:50;7;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;18:20;13;Santa Cruz via Las Palmas / Cerro Azul
+MG1;Morungava / Parada 61;Saída de Morungava;Sábado;Urbano Gravataí;06:35;8;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Sábado;Urbano Gravataí;09:30;7;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Sábado;Urbano Gravataí;10:15;8;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Domingo;Urbano Gravataí;09:10;8;Centro
+MG1;Morungava / Parada 61;Saída de Morungava;Domingo;Urbano Gravataí;09:30;7;Centro
+MG1;Morungava / Parada 61;Saída do Centro;Dia útil;Plano Verão – Municipal 2;09:10;1;Parada 100
+MG1;Morungava / Parada 61;Saída do Centro;Dia útil;Plano Verão – Municipal 2;10:00;2;Santa Cruz
+MG1;Morungava / Parada 61;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:25;3;Parada 92
+MG1;Morungava / Parada 61;Saída do Centro;Dia útil;Plano Verão – Municipal 2;12:20;1;Parada 100
+MG1;Morungava / Parada 61;Saída do Centro;Dia útil;Plano Verão – Municipal 2;15:20;1;Parada 100
+MG1;Morungava / Parada 61;Saída do Centro;Sábado;Urbano Gravataí;08:00;2;Santa Cruz
+MG1;Morungava / Parada 61;Saída do Centro;Sábado;Urbano Gravataí;09:10;1;Parada 100
+MG1;Morungava / Parada 61;Saída do Centro;Sábado;Urbano Gravataí;11:00;2;Santa Cruz
+MG1;Morungava / Parada 61;Saída do Centro;Domingo;Urbano Gravataí;06:35;1;Parada 100
+MG1;Morungava / Parada 61;Saída do Centro;Domingo;Urbano Gravataí;08:00;2;Santa Cruz
+MG1;Morungava / Parada 61;Saída do Centro;Domingo;Urbano Gravataí;10:15;1;Parada 100
+MG1;Morungava / Parada 61;Saída do Centro;Domingo;Urbano Gravataí;11:00;2;Santa Cruz
+MG2;Morungava / Corcunda;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;12:20;7;Centro via Jocum / Vira Machado / Taquareiras
+MG2;Morungava / Corcunda;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;17:10;8;Centro via Cerro Azul / Parada 110 / El Cádiz
+MG2;Morungava / Corcunda;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;18:55;9;Centro
+MG2;Morungava / Corcunda;Saída de Morungava;Sábado;Urbano Gravataí;07:00;10;Centro via Taquareiras / Vira Machado / Fazenda Vargas
+MG2;Morungava / Corcunda;Saída de Morungava;Sábado;Urbano Gravataí;17:00;11;Centro via David Canabarro / Santa Cruz
+MG2;Morungava / Corcunda;Saída de Morungava;Domingo;Urbano Gravataí;07:00;10;Centro via Taquareiras / Vira Machado / Fazenda Vargas
+MG2;Morungava / Corcunda;Saída de Morungava;Domingo;Urbano Gravataí;17:00;11;Centro via David Canabarro / Santa Cruz
+MG2;Morungava / Corcunda;Saída do Centro;Dia útil;Plano Verão – Municipal 2;07:20;1;Escola São Paulo
+MG2;Morungava / Corcunda;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:45;2;Fazenda Vargas via Cerro Azul
+MG2;Morungava / Corcunda;Saída do Centro;Dia útil;Plano Verão – Municipal 2;15:50;3;Parada 100
+MG2;Morungava / Corcunda;Saída do Centro;Dia útil;Plano Verão – Municipal 2;18:50;4;Parada 96 via Parada 100 / Fazenda Vargas
+MG2;Morungava / Corcunda;Saída do Centro;Dia útil;Plano Verão – Municipal 2;19:40;4;Parada 96 via Parada 100 / Fazenda Vargas
+MG2;Morungava / Corcunda;Saída do Centro;Dia útil;Plano Verão – Municipal 2;23:05;5;Parada 97 via Neópolis / Rosa Maria / El Cadiz
+MG2;Morungava / Corcunda;Saída do Centro;Sábado;Urbano Gravataí;12:10;6;Parada 96 via Esc. São Paulo / Taquareiras / Vira Machado
+MG2;Morungava / Corcunda;Saída do Centro;Domingo;Urbano Gravataí;12:10;6;Parada 96 via Esc. São Paulo / Taquareiras / Vira Machado
+MG3;Morungava / Parada 103;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;05:52;4;Centro via Padre Réus
+MG3;Morungava / Parada 103;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;07:05;5;Centro via Vira Machado / Cerro Azul
+MG3;Morungava / Parada 103;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;12:10;6;Centro via El Cádiz / Portãozinho / Itatiaia
+MG3;Morungava / Parada 103;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;16:15;7;Esc. São Paulo
+MG3;Morungava / Parada 103;Saída de Morungava;Dia útil;Plano Verão – Municipal 2;16:50;8;Centro via Cerro Azul / Fazenda Vargas / GM
+MG3;Morungava / Parada 103;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:05;1;Fazenda Vargas via Xará
+MG3;Morungava / Parada 103;Saída do Centro;Dia útil;Plano Verão – Municipal 2;12:05;2;Esc. São Paulo via Xará
+MG3;Morungava / Parada 103;Saída do Centro;Sábado;Urbano Gravataí;06:00;3;Centro
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:32;6;Esc. Frei Velloso via Itacolomi
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;07:00;7;Centro via Trav. Sarmento
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;07:10;8;Centro
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;10:00;9;Morro Agudo
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;14:10;9;Morro Agudo
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:20;10;Centro
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:25;11;Campo do Ibituí / Morro Agudo até Fenda do Biquini
+MG4;Morro Agudo;Saída do Centro;Dia útil;Plano Verão – Municipal 2;17:55;12;Centro via Itacolomi
+MG4;Morro Agudo;Saída do Centro;Sábado;Urbano Gravataí;12:30;9;Morro Agudo
+MG4;Morro Agudo;Saída do Centro;Sábado;Urbano Gravataí;14:00;10;Centro
+MG4;Morro Agudo;Saída do Centro;Sábado;Urbano Gravataí;18:00;9;Morro Agudo
+MG4;Morro Agudo;Saída do Centro;Sábado;Urbano Gravataí;19:00;10;Centro
+MG4;Morro Agudo;Saída do Centro;Domingo;Urbano Gravataí;17:35;9;Morro Agudo
+MG4;Morro Agudo;Saída do Centro;Domingo;Urbano Gravataí;18:35;10;Centro
+MG4;Morro Agudo;Saída do Morro Agudo;Dia útil;Plano Verão – Municipal 2;05:40;1;Centro via Entrada Trav. Sarmento
+MG4;Morro Agudo;Saída do Morro Agudo;Dia útil;Plano Verão – Municipal 2;06:00;2;Morro Agudo até Fenda do Biquini
+MG4;Morro Agudo;Saída do Morro Agudo;Dia útil;Plano Verão – Municipal 2;11:50;3;Centro via Campo do Ibituí
+MG4;Morro Agudo;Saída do Morro Agudo;Dia útil;Plano Verão – Municipal 2;16:15;4;Campo do Ibituí / Esc. Frei Velloso / Cova do Touro / Morro Agudo
+MG4;Morro Agudo;Saída do Morro Agudo;Dia útil;Plano Verão – Municipal 2;18:00;5;Morro Agudo / Trav. Sarmento até Esc. Frei Velloso
+MG4;Morro Agudo;Saída do Morro Agudo;Sábado;Urbano Gravataí;07:30;3;Centro via Campo do Ibituí
+MG5;Morungava / Rincão;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:40;1;Esc. São Paulo via El Cádiz
+MG5;Morungava / Rincão;Saída do Centro;Dia útil;Plano Verão – Municipal 2;08:30;1;Esc. São Paulo via El Cádiz
+MG5;Morungava / Rincão;Saída do Centro;Dia útil;Plano Verão – Municipal 2;17:15;2;Esc. São Paulo via Jocum / Vira Machado / Taquareiras
+MG5;Morungava / Rincão;Volta;Dia útil;Plano Verão – Municipal 2;05:55;3;Centro via Taquareiras / Vira Machado / El Cádiz
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;04:20;1;Morada do Vale via Parada 61 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;05:37;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;06:10;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;06:49;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;07:28;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;07:52;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;08:46;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;09:25;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;10:04;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;10:43;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;11:17;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;12:01;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;12:49;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;13:21;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;13:58;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;14:37;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;15:16;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;15:55;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;16:29;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;16:54;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;17:13;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;17:52;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;18:31;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;19:10;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;20:01;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;20:46;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;21:31;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;22:16;2;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Dia útil;Plano Verão – Municipal 2;22:35;3;Morada do Vale via Parada 72 / Centro
+MV1;Morada do Vale / Parada 61;Ida;Sábado;Urbano Gravataí;05:37;2;Morada do Vale via Parada 72 / Centro
+MV2;Morada do Vale / Parada 72;Ida;Dia útil;Plano Verão – Municipal 2;07:00;1;Verdes Campos até Igreja
+MV2;Morada do Vale / Parada 72;Volta;Dia útil;Plano Verão – Municipal 2;17:00;2;Centro
+MV2;Morada do Vale / Parada 72;Volta;Dia útil;Plano Verão – Municipal 2;17:30;3;Centro via Sinodal
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;04:25;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;04:25;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;05:20;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;05:20;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;06:05;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;06:05;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;06:35;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;06:40;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;07:35;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;07:35;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;08:20;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;08:20;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;09:05;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;09:05;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;09:45;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;09:45;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;10:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;10:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;11:15;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;11:15;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;11:50;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;12:00;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;12:40;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;12:40;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;13:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;13:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;14:10;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;14:15;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;15:00;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;15:00;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;15:45;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;15:45;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;16:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;16:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;17:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;17:30;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;18:25;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;18:25;6;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Intermunicipal;20:00;7;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Dia útil;Plano Verão – Municipal 2;20:00;7;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Intermunicipal;06:55;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Urbano Gravataí;06:55;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Intermunicipal;09:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Urbano Gravataí;09:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Intermunicipal;12:45;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Urbano Gravataí;12:45;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Intermunicipal;17:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Sábado;Urbano Gravataí;17:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Intermunicipal;07:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Urbano Gravataí;07:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Intermunicipal;09:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Urbano Gravataí;09:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Intermunicipal;12:45;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Urbano Gravataí;12:45;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Intermunicipal;17:05;5;Centro
+N4;Natal / Bonsucesso;Saída da Parada 64;Domingo;Urbano Gravataí;17:05;5;Centro
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;06:25;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:25;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;07:20;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;07:20;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;08:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;08:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;08:50;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;08:50;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;09:35;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;09:35;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;10:20;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;10:20;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;11:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;11:50;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:50;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;12:25;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;12:25;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;13:20;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;13:20;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;14:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;14:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;14:50;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;14:50;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;15:35;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;15:35;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;16:30;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:30;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;17:25;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;17:25;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;18:15;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;18:15;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;19:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;19:05;1;Natal / Parada 72
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;20:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;20:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;21:00;3;Natal / Bonsucesso / Parada 67
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;21:00;3;Natal / Bonsucesso / Parada 67
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Intermunicipal;23:05;4;Natal – Colegial
+N4;Natal / Bonsucesso;Saída do Centro;Dia útil;Plano Verão – Municipal 2;23:05;4;Natal – Colegial
+N4;Natal / Bonsucesso;Saída do Centro;Sábado;Intermunicipal;08:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Sábado;Urbano Gravataí;08:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Sábado;Intermunicipal;12:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Sábado;Urbano Gravataí;12:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Sábado;Intermunicipal;16:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Sábado;Urbano Gravataí;16:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Domingo;Intermunicipal;08:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Domingo;Urbano Gravataí;08:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Domingo;Intermunicipal;12:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Domingo;Urbano Gravataí;12:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Domingo;Intermunicipal;16:00;2;Natal / Bonsucesso / Parada 64
+N4;Natal / Bonsucesso;Saída do Centro;Domingo;Urbano Gravataí;16:00;2;Natal / Bonsucesso / Parada 64
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;05:55;1;Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;06:40;2;Neópolis / Rosa Maria / Palermo / Corcunda / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;07:40;3;Neópolis / Rosa Maria / Parque Itália / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;09:10;1;Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;10:30;1;Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;11:55;4;Palermo / Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;13:00;1;Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;14:30;1;Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;15:40;1;Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;17:00;3;Neópolis / Rosa Maria / Parque Itália / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;18:00;3;Neópolis / Rosa Maria / Parque Itália / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;19:00;1;Neópolis / Rosa Maria / Centro
+N5;Neópolis / Rosa Maria;Ida;Dia útil;Plano Verão – Municipal 2;19:35;5;Rosa Maria / Neópolis / Itacolomi / Corcunda / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;04:45;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;05:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;05:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;06:00;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;06:00;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;06:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;06:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;06:44;2;Nova Conquista / Esc. Nicolau – Colegial
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;06:44;2;Nova Conquista / Esc. Nicolau – Colegial
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;07:15;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;07:35;3;Nova Conquista até Esc. Santa Madalena – Colegial
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;07:35;3;Nova Conquista até Esc. Santa Madalena – Colegial
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;08:15;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;08:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;08:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;09:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;09:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;09:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;10:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;10:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;11:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;11:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;12:05;5;Nova Conquista / Shopping via Esc. Irmã Cléssia
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;12:35;6;Nova Conquista até Esc. Santa Madalena – Colegial
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;12:35;6;Nova Conquista até Esc. Santa Madalena – Colegial
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;13:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;13:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;13:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;13:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;14:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;14:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;14:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;15:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;15:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;15:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;16:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;16:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;16:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;17:10;7;Nova Conquista / Shopping via Esc. Irmã Cléssia
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;17:15;7;Nova Conquista / Shopping via Esc. Irmã Cléssia
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;17:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;18:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;18:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;18:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;18:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;18:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;19:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;19:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;19:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;20:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;20:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;20:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;21:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;21:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;21:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;21:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Intermunicipal;22:35;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Dia útil;Plano Verão – Municipal 2;22:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;05:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;05:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;06:05;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;06:05;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;07:25;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;07:25;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;08:05;1;Nova Conquista / Centro
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;08:05;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;09:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;09:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;10:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;10:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;11:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;11:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;12:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;12:00;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;13:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;13:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;14:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;14:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;15:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;15:00;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;16:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;16:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;17:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;17:00;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;18:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;18:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;19:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;19:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;20:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;20:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;21:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;21:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;22:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;22:00;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Intermunicipal;22:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Sábado;Urbano Gravataí;22:40;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Ida;Domingo;Urbano Gravataí;09:00;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Domingo;Urbano Gravataí;11:00;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Domingo;Urbano Gravataí;14:45;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Domingo;Urbano Gravataí;17:15;8;El Cadiz Nova Conquista
+NC1;Nova Conquista;Ida;Domingo;Urbano Gravataí;22:10;4;Nova Conquista / Shopping
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;07:00;9;Esc. Polivalente – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;07:00;9;Esc. Polivalente – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;07:05;10;Esc. Josefina Becker – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;07:05;10;Esc. Josefina Becker – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;07:30;11;Esc. Irmã Cléssia – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;08:05;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;08:05;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;12:00;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;12:00;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;12:20;13;Nova Conquista / Esc. Nicolau – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;12:20;14;Cemitério / Nova Conquista – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;12:20;13;Nova Conquista / Esc. Nicolau – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;12:20;18;Colegial Nova Conquista/ Josefina Becker/ Polivalente
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;12:30;15;Esc. Polivalente – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;12:30;15;Esc. Polivalente – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;12:45;10;Esc. Josefina Becker – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;12:45;10;Esc. Josefina Becker – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;13:00;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;13:00;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;17:00;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;17:00;12;Centro – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;17:20;14;Cemitério / Nova Conquista – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;17:20;16;Nova Conquista – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;17:20;14;Cemitério / Nova Conquista – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;17:20;16;Nova Conquista – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Intermunicipal;17:30;17;Nova Conquista – Colegial
+NC1;Nova Conquista;Volta;Dia útil;Plano Verão – Municipal 2;17:30;17;Nova Conquista – Colegial
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;04:50;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;05:31;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;06:33;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;07:07;2;Santa Cecília / Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;08:30;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;09:43;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;10:37;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;10:37;2;Santa Cecília / Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;11:45;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;12:57;3;Sagrada Família / Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;13:42;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;15:00;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;16:18;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;16:57;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;18:10;2;Santa Cecília / Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;19:46;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;21:27;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Dia útil;Plano Verão – Municipal 2;22:42;4;Morada do Vale / Gravataí Shopping / Centro – Colegial
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;05:35;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;06:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;07:30;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;08:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;09:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;10:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;11:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;12:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;13:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;14:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;15:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;16:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;17:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;18:15;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;19:33;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Sábado;Urbano Gravataí;20:33;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;05:35;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;06:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;07:30;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;08:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;09:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;10:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;11:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;12:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;13:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;14:28;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;15:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;15:50;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;16:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;17:25;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;18:15;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;19:33;1;Morada do Vale / Gravataí Shopping / Parada 107
+P107;Parada 107 / Parada 61 / Morada do Vale / Gravataí Shopping;Ida;Domingo;Urbano Gravataí;20:33;1;Morada do Vale / Gravataí Shopping / Parada 107
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;04:20;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;05:55;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;06:35;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;07:25;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;08:05;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;08:50;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;09:32;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;10:17;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;11:02;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;11:57;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;12:32;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;13:21;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;14:10;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;14:52;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;15:37;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;16:37;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;17:25;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;18:25;5;Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;19:00;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Sábado;Urbano Gravataí;05:50;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Sábado;Urbano Gravataí;07:10;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Sábado;Urbano Gravataí;09:20;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Sábado;Urbano Gravataí;13:20;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Sábado;Urbano Gravataí;17:20;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída da Parada 59;Sábado;Urbano Gravataí;21:20;4;Vila Rica / Parque Olinda / Cohab – 23140 – Vila Rica / Parque Olinda / Cohab – Centro
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:00;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:30;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;07:15;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;08:00;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;08:45;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;09:30;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;10:15;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:10;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:45;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;12:35;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;13:20;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;14:05;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;14:50;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;15:35;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:25;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;17:25;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;18:15;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;19:05;1;Cohab
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;19:50;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;20:35;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;21:25;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;22:35;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Dia útil;Plano Verão – Municipal 2;23:05;3;Cohab / Parque Olinda / Vila Rica / Parada 59 – Colegial
+S4;Cohab / Vila Rica;Saída do Centro;Sábado;Urbano Gravataí;06:00;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Sábado;Urbano Gravataí;08:00;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Sábado;Urbano Gravataí;12:00;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Sábado;Urbano Gravataí;16:00;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Sábado;Urbano Gravataí;20:00;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S4;Cohab / Vila Rica;Saída do Centro;Sábado;Urbano Gravataí;21:30;2;Cohab / Parque Olinda / Vila Rica / Parada 59
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;06:10;8;Sinodal via Shopping
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;07:05;9;Esc. Nicolau – Colegial
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;08:00;10;Centro
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;11:50;11;SESI
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;12:10;8;Sinodal via Shopping
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;13:00;12;Centro
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;15:40;12;Centro
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;16:40;10;Centro
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;17:09;10;Centro
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;18:10;8;Sinodal via Shopping
+S5;Circular Centro;Em direção ao Centro;Dia útil;Plano Verão – Municipal 2;22:40;10;Centro
+S5;Circular Centro;Em direção ao Centro;Sábado;Urbano Gravataí;15:30;12;Centro
+S5;Circular Centro;Em direção ao Centro;Sábado;Urbano Gravataí;16:40;12;Centro
+S5;Circular Centro;Em direção ao Centro;Sábado;Urbano Gravataí;19:50;12;Centro
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;06:30;1;Atacadão
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;07:00;2;Alphaville via Passo das Pedras
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;07:10;3;Ulbra / Centro
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;07:15;4;Atacadão via Sine / Depósito Asun / Senai
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;07:30;5;Havan via Ulbra
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;07:45;3;Ulbra / Centro
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;11:45;3;Ulbra / Centro
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;12:05;6;Senai / Passo das Canoas / Esc. Nicolau
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;12:50;7;Senai
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;13:00;2;Alphaville via Passo das Pedras
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;16:10;5;Havan via Ulbra
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;16:50;5;Havan via Ulbra
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;18:40;3;Ulbra / Centro
+S5;Circular Centro;Saindo do Centro;Dia útil;Plano Verão – Municipal 2;19:00;2;Alphaville via Passo das Pedras
+S5;Circular Centro;Saindo do Centro;Sábado;Urbano Gravataí;06:30;1;Atacadão
+S5;Circular Centro;Saindo do Centro;Sábado;Urbano Gravataí;07:30;1;Atacadão
+S5;Circular Centro;Saindo do Centro;Sábado;Urbano Gravataí;10:20;1;Atacadão
+S5;Circular Centro;Saindo do Centro;Sábado;Urbano Gravataí;14:30;1;Atacadão
+ST1;Santa Tecla;Saída do Centro;Dia útil;Plano Verão – Municipal 2;06:30;1;Santa Tecla via Miraflores
+ST1;Santa Tecla;Saída do Centro;Dia útil;Plano Verão – Municipal 2;11:10;2;Santa Tecla
+ST1;Santa Tecla;Saída do Centro;Dia útil;Plano Verão – Municipal 2;12:10;3;Santa Tecla via Ulbra / Costa do Ipiranga / Taquareiras – Colegial
+ST1;Santa Tecla;Saída do Centro;Dia útil;Plano Verão – Municipal 2;16:25;4;Santa Tecla via Palermo / Costa do Ipiranga
+ST1;Santa Tecla;Saída do Centro;Dia útil;Plano Verão – Municipal 2;23:05;5;Santa Tecla via Rincão / Morro Agudo
+ST1;Santa Tecla;Saída do Centro;Sábado;Urbano Gravataí;11:00;6;Santa Tecla via Corcunda / Neópolis / Costa do Ipiranga / Asilo / Mangueira
+ST1;Santa Tecla;Saída do Santa Tecla;Dia útil;Plano Verão – Municipal 2;07:45;7;Centro via Asilo
+ST1;Santa Tecla;Saída do Santa Tecla;Dia útil;Plano Verão – Municipal 2;12:00;8;Centro via Miraflores
+ST1;Santa Tecla;Saída do Santa Tecla;Dia útil;Plano Verão – Municipal 2;12:50;9;Centro
+ST1;Santa Tecla;Saída do Santa Tecla;Dia útil;Plano Verão – Municipal 2;18:30;9;Centro
+ST1;Santa Tecla;Saída do Santa Tecla;Sábado;Urbano Gravataí;07:10;9;Centro
+ST1;Santa Tecla;Saída do Santa Tecla;Sábado;Urbano Gravataí;12:20;10;Centro via Rosa Maria / Neópolis / Corcunda
+ST1;Santa Tecla;Saída do Santa Tecla;Sábado;Urbano Gravataí;17:35;10;Centro via Rosa Maria / Neópolis / Corcunda
+ST1;Santa Tecla;Saída do Santa Tecla;Sábado;Urbano Gravataí;18:55;10;Centro via Rosa Maria / Neópolis / Corcunda
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;05:30;1;Padre Réus
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;05:58;2;Senai via Padre Réus / Itatiaia / Sítio Gaúcho / Bradesco – Colegial
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;06:12;3;Centro
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;06:20;1;Padre Réus
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;06:36;1;Padre Réus
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;06:44;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;06:52;5;Sinodal / Verdes Campos
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;09:30;1;Padre Réus
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;11:27;6;Parada 59 via Jardim do Cedro
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;12:03;7;Parada 59 via Padre Réus / Itatiaia / Jardim do Cedro / Sítio Gaúcho / Bradesco – Colegial
+T2;Padre Réus;Saída da Parada 103;Dia útil;Plano Verão – Municipal 2;16:00;6;Parada 59 via Jardim do Cedro
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;05:55;1;Padre Réus
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;07:44;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;09:47;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;11:47;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;13:47;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;15:44;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;17:44;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Sábado;Urbano Gravataí;19:49;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;05:55;1;Padre Réus
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;07:44;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;09:47;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;11:47;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;13:47;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;15:44;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;17:44;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 103;Domingo;Urbano Gravataí;19:49;4;Parada 59 via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;06:33;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;08:01;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;09:21;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;10:39;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;12:35;9;Parada 107 via Sítio Gaúcho / Itatiaia / Padre Réus – Colegial
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;17:20;10;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;17:45;11;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;18:55;9;Parada 107 via Sítio Gaúcho / Itatiaia / Padre Réus – Colegial
+T2;Padre Réus;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;20:39;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;07:24;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;08:24;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;10:14;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;12:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;14:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;16:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;18:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;20:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Sábado;Urbano Gravataí;22:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;07:24;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;08:24;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;10:14;8;Padre Réus
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;12:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;14:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;16:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;18:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;20:24;12;Padre Réus via Itatiaia
+T2;Padre Réus;Saída da Parada 59;Domingo;Urbano Gravataí;22:24;12;Padre Réus via Itatiaia
+TP;Três Porteiras;Ida;Dia útil;Plano Verão – Municipal 2;06:15;1;Centro via Verdes Campos
+TP;Três Porteiras;Ida;Dia útil;Plano Verão – Municipal 2;07:10;2;Três Porteiras / Parada 107
+TP;Três Porteiras;Ida;Dia útil;Plano Verão – Municipal 2;12:00;3;Centro via Cavalhada / Mato Alto / Bradesco
+TP;Três Porteiras;Ida;Dia útil;Plano Verão – Municipal 2;17:00;4;Centro via Cavalhada
+TP;Três Porteiras;Ida;Sábado;Urbano Gravataí;07:00;2;Três Porteiras / Parada 107
+TP;Três Porteiras;Ida;Domingo;Urbano Gravataí;07:00;2;Três Porteiras / Parada 107
+TP;Três Porteiras;Volta;Dia útil;Plano Verão – Municipal 2;12:20;5;Bradesco / Cavalhada / Três Porteiras / Parada 107
+TP;Três Porteiras;Volta;Dia útil;Plano Verão – Municipal 2;17:30;6;Cavalhada / Verdes Campos / Três Porteiras / Parada 107
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;05:21;7;Centro
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;05:54;8;Parada 59 via Itatiaia
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;06:09;9;Parada 59 via Portão / Vila Rica
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;06:55;10;Parada 59 via Vila Imperial / Vila Rica
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;07:10;11;Xará Padre Réus Parada 59 / Jardim do Cedro
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;07:20;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;08:00;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;08:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;09:18;13;Parada 59 via Portão / Itatiaia / Vila Rica
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;09:50;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;11:13;11;Xará Padre Réus Parada 59 / Jardim do Cedro
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;11:54;13;Parada 59 via Portão / Itatiaia / Vila Rica
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;12:05;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;12:30;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;13:20;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;14:05;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;14:45;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;15:20;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;16:39;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;17:08;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;17:45;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;18:30;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;19:13;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;19:50;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;20:43;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;21:12;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Dia útil;Plano Verão – Municipal 2;21:28;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;05:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;06:10;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;06:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;08:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;10:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;12:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;14:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;16:37;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;18:37;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Sábado;Urbano Gravataí;20:42;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;06:37;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;08:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;10:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;12:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;14:40;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;16:37;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;18:37;12;Parada 59 via Padre Réus
+XR;Xará;Saída da Parada 59;Domingo;Urbano Gravataí;20:42;12;Parada 59 via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;05:46;1;Xará via Vila Rica / Caça e Pesca / Portão / Passo do Pinto até Parada 107
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;06:30;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;09:05;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;10:00;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;10:30;3;Xará Padre Réus Itatiaia Parada 59 – 29407 – Xará Padre Réus Itatiaia Parada 59 – Xará Padre Réus Itatiaia Parada 59
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;10:50;4;Xará via Vila Rica / Itatiaia / Portão até Parada 107
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;12:00;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;12:45;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;13:25;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;14:03;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;14:42;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;15:25;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;17:10;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;17:31;5;Xará via Itatiaia / Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;18:29;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;19:11;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;19:50;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;21:12;6;Xará via Esc. Antônio Aires de Almeida / Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;22:17;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Dia útil;Plano Verão – Municipal 2;22:47;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Sábado;Urbano Gravataí;09:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Sábado;Urbano Gravataí;11:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Sábado;Urbano Gravataí;13:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Sábado;Urbano Gravataí;15:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Sábado;Urbano Gravataí;17:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Sábado;Urbano Gravataí;19:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Sábado;Urbano Gravataí;21:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Domingo;Urbano Gravataí;09:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Domingo;Urbano Gravataí;11:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Domingo;Urbano Gravataí;13:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Domingo;Urbano Gravataí;15:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Domingo;Urbano Gravataí;17:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Domingo;Urbano Gravataí;19:24;2;Xará via Padre Réus
+XR;Xará;Saída do Xará;Domingo;Urbano Gravataí;21:24;2;Xará via Padre Réus
