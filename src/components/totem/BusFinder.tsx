@@ -9,6 +9,7 @@ import { suggest, type Suggestion } from "@/lib/geo";
 import type { Route } from "@/lib/routing";
 import { TouchSelect } from "./TouchSelect";
 import { Keyboard } from "./Keyboard";
+import { logSearch } from "@/lib/ontime-data";
 
 const BusMap = lazy(() => import("./BusMap"));
 
@@ -37,7 +38,7 @@ export function BusFinder() {
             placeholder="Toque para escolher a linha…"
             searchable
             options={LINES.map((l) => ({ value: l.code, label: `${l.code} – ${l.name}` }))}
-            onChange={(v) => { const l = LINES.find((x) => x.code === v); if (l) setView({ kind: "line", line: l }); }}
+            onChange={(v) => { const l = LINES.find((x) => x.code === v); if (l) { logSearch({ tipo: "linha", termo: `${l.code} – ${l.name}`, linha_codigo: l.code, resultados: 1 }); setView({ kind: "line", line: l }); } }}
           />
           <div className="flex flex-1 flex-col items-center justify-center gap-6 text-muted-foreground">
             <Bus className="h-40 w-40 opacity-30" />
@@ -76,7 +77,7 @@ function DestSearch({ onPick }: { onPick: (o: Option, d: Suggestion) => void }) 
   const type = (v: string) => { setQ(v); setChosen(null); setOpts(null); };
   const pick = (s: Suggestion) => {
     setChosen(s); setOpts(null); setBusy(true); setErr(false);
-    findOptions(s.coord).then(setOpts).catch(() => setErr(true)).finally(() => setBusy(false));
+    findOptions(s.coord).then((found) => { setOpts(found); logSearch({ tipo: "destino", termo: s.label.slice(0, 120), resultados: found.length }); }).catch(() => setErr(true)).finally(() => setBusy(false));
   };
 
   return (

@@ -1,4 +1,5 @@
 import { TOTEM_LOCATION } from "@/config/totem";
+import { supabase } from "@/integrations/supabase/client";
 
 export type LngLat = [number, number];
 /** [oeste, sul, leste, norte] ao redor de Gravataí/RS */
@@ -76,6 +77,11 @@ export function geocodePlace(name: string): Promise<LngLat | null> {
   if (p) return p;
   const job = limited(async () => {
     try {
+      const remote = await supabase.from("geocode_cache").select("lat,lng").eq("query", k).maybeSingle();
+      if (remote.data) {
+        const hit: LngLat = [remote.data.lng, remote.data.lat];
+        load()[k] = hit; save(); return hit;
+      }
       const r = await fetch(photon(name, 1));
       if (!r.ok) return null;
       const j = (await r.json()) as { features: Feature[] };
@@ -83,6 +89,7 @@ export function geocodePlace(name: string): Promise<LngLat | null> {
       const v = f ? f.geometry.coordinates : null;
       load()[k] = v;
       save();
+      if (v) void supabase.from("geocode_cache").insert({ query: k, display_name: name, lat: v[1], lng: v[0] }).then(() => undefined);
       return v;
     } catch {
       return null; // erro de rede: não guarda no cache

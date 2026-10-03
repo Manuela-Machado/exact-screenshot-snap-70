@@ -9,3 +9,8 @@
 - [x] Enlarge and reorganize fares and feedback without page scrolling.
 - [x] Return home and clear screen state after 60 seconds of inactivity.
 - [ ] Confirm the exact physical coordinates for number 1555 / Parada 1; OpenStreetMap only returned the road segment.
+- [x] Create the Supabase schema with explicit grants, constraints, indexes, and RLS.
+- [x] Import and validate 19 lines and 696 official schedule records.
+- [x] Read catalog data from Supabase with local fallback.
+- [x] Persist feedbacks, anonymous searches, geocoding, and route caches.
+- [ ] Verify RLS, fallback behavior, and the complete kiosk flow end to end.

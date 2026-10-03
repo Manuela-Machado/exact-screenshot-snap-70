@@ -1,10 +1,15 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useCallback, useEffect, useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { Bus, Receipt, MessageSquareHeart, ArrowLeft, Home } from "lucide-react";
 import { AdBanner } from "@/components/totem/AdBanner";
 import { BusFinder } from "@/components/totem/BusFinder";
 import { Fares } from "@/components/totem/Fares";
 import { Feedback } from "@/components/totem/Feedback";
+import { loadCatalog, LOCAL_CATALOG } from "@/lib/ontime-data";
+import { LINES } from "@/lib/schedule";
+import { TOTEM_LOCATION } from "@/config/totem";
+import { TOTEM } from "@/lib/buses";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -47,6 +52,14 @@ function Clock() {
 function Totem() {
   const [screen, setScreen] = useState<Screen>("home");
   const [scale, setScale] = useState(1);
+  const { data: catalog = LOCAL_CATALOG } = useQuery({ queryKey: ["ontime-catalog"], queryFn: loadCatalog, staleTime: 5 * 60_000, refetchInterval: 5 * 60_000 });
+
+  useEffect(() => {
+    LINES.splice(0, LINES.length, ...catalog.lines);
+    Object.assign(TOTEM_LOCATION, catalog.totem);
+    TOTEM[0] = catalog.totem.lng;
+    TOTEM[1] = catalog.totem.lat;
+  }, [catalog]);
 
   useEffect(() => {
     const fit = () => setScale(Math.min(window.innerWidth / 1440, window.innerHeight / 2304));
@@ -136,8 +149,8 @@ function Totem() {
               </div>
             )}
             {screen === "bus" && <BusFinder />}
-            {screen === "fares" && <Fares />}
-            {screen === "feedback" && <Feedback onDone={() => setScreen("menu")} onHome={goHome} />}
+            {screen === "fares" && <Fares groups={catalog.fareGroups} municipalFare={catalog.municipalFare} notice={catalog.notice} />}
+            {screen === "feedback" && <Feedback categories={catalog.feedback} onDone={() => setScreen("menu")} onHome={goHome} />}
           </main>
         </div>
         <div className="min-h-0 border-t-4 border-primary">
