@@ -5,7 +5,7 @@ import raw from "@/data/sogil_gravatai_linhas_horarios.csv?raw";
 export type Trip = { dir: string; day: string; time: string; variant: string; via: string; plan: string };
 export type Line = { code: string; name: string; trips: Trip[] };
 
-type Row = Record<string, string | undefined>;
+type Row = Partial<Record<"linha_codigo" | "linha_nome" | "sentido_origem" | "dia_tipo" | "plano_operacional" | "horario" | "variante_num" | "variante_itinerario", string>>;
 
 const parsed = Papa.parse<Row>(raw.replace(/^\uFEFF/, ""), {
   delimiter: ";",
