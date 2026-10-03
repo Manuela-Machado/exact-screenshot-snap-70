@@ -1,5 +1,5 @@
 import { supabase } from "@/integrations/supabase/client";
-import { TOTEM_LOCATION } from "@/config/totem";
+import { TOTEM_LOCATION, type TotemLocation } from "@/config/totem";
 import { LINES as LOCAL_LINES, type Line } from "./schedule";
 
 export const TOTEM_ID = "gravatai-parada-1";
@@ -31,7 +31,7 @@ export type Catalog = {
   municipalFare: string;
   notice: typeof LOCAL_NOTICE;
   feedback: typeof LOCAL_FEEDBACK;
-  totem: typeof TOTEM_LOCATION;
+  totem: TotemLocation;
 };
 
 export const LOCAL_CATALOG: Catalog = {

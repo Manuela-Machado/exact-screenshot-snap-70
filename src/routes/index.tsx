@@ -9,6 +9,7 @@ import { Feedback } from "@/components/totem/Feedback";
 import { loadCatalog, LOCAL_CATALOG } from "@/lib/ontime-data";
 import { LINES } from "@/lib/schedule";
 import { TOTEM_LOCATION } from "@/config/totem";
+import { TOTEM } from "@/lib/buses";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -56,6 +57,8 @@ function Totem() {
   useEffect(() => {
     LINES.splice(0, LINES.length, ...catalog.lines);
     Object.assign(TOTEM_LOCATION, catalog.totem);
+    TOTEM[0] = catalog.totem.lng;
+    TOTEM[1] = catalog.totem.lat;
   }, [catalog]);
 
   useEffect(() => {

@@ -33,7 +33,7 @@ export async function osrm(points: LngLat[]): Promise<Route | null> {
     const cached = await supabase.from("route_cache").select("geometry,duration_s,distance_m").eq("cache_key", cacheKey).maybeSingle();
     const geo = cached.data?.geometry as { type?: string; coordinates?: LngLat[] } | null;
     if (geo?.type === "LineString" && geo.coordinates?.length) {
-      const route = { geometry: geo.coordinates, legs: [], durationS: cached.data?.duration_s, distanceM: cached.data?.distance_m };
+      const route: Route = { geometry: geo.coordinates, legs: [], durationS: cached.data.duration_s, distanceM: cached.data.distance_m };
       mem.set(key, route); save(); return route;
     }
     const r = await fetch(`https://router.project-osrm.org/route/v1/driving/${key}?overview=full&geometries=geojson`);
