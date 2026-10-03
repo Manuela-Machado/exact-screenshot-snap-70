@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Bus, Receipt, MessageSquareHeart, ArrowLeft, Home } from "lucide-react";
 import { AdBanner } from "@/components/totem/AdBanner";
 import { BusFinder } from "@/components/totem/BusFinder";
@@ -55,13 +55,14 @@ function Totem() {
     return () => window.removeEventListener("resize", fit);
   }, []);
 
+  const goHome = useCallback(() => setScreen("home"), []);
   useEffect(() => {
     if (screen === "home") return;
-    let t = setTimeout(() => setScreen("home"), 120000);
-    const reset = () => { clearTimeout(t); t = setTimeout(() => setScreen("home"), 120000); };
+    let t = setTimeout(goHome, 60000);
+    const reset = () => { clearTimeout(t); t = setTimeout(goHome, 60000); };
     window.addEventListener("pointerdown", reset);
     return () => { clearTimeout(t); window.removeEventListener("pointerdown", reset); };
-  }, [screen]);
+  }, [screen, goHome]);
 
   const menu = [
     { id: "bus" as const, label: "Onde está meu ônibus?", icon: Bus },
@@ -76,7 +77,7 @@ function Totem() {
         className="grid h-[2304px] w-[1440px] grid-rows-[3fr_1fr] overflow-hidden bg-background shadow-2xl"
         style={{ transform: `scale(${scale})`, transformOrigin: "top left" }}
       >
-        <div className="flex min-h-0 flex-col">
+        <div className="relative flex min-h-0 flex-col">
           <header className="grid shrink-0 grid-cols-[minmax(0,1fr)_auto] items-center gap-10 bg-primary px-12 py-8 text-primary-foreground">
             <div className="flex min-w-0 items-center gap-6">
               <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-2xl bg-primary-foreground text-primary"><Bus className="h-14 w-14" /></div>
@@ -89,17 +90,17 @@ function Totem() {
           </header>
 
           {screen !== "home" && screen !== "menu" && (
-            <nav className="grid shrink-0 grid-cols-[auto_minmax(0,1fr)] items-center gap-6 border-b px-10 py-5">
-              <button onClick={() => setScreen("menu")} className="flex shrink-0 items-center gap-3 rounded-xl bg-secondary px-7 py-5 text-2xl font-bold text-secondary-foreground"><ArrowLeft className="h-8 w-8" /> Voltar</button>
-              <div className="grid min-w-0 grid-cols-3 gap-4">
+            <nav className="grid shrink-0 grid-cols-[auto_minmax(0,1fr)] items-center gap-3 border-b px-4 py-3">
+              <button onClick={() => setScreen("menu")} className="flex min-h-24 shrink-0 items-center gap-3 rounded-xl bg-secondary px-7 text-3xl font-bold text-secondary-foreground"><ArrowLeft className="h-9 w-9" /> Voltar</button>
+              <div className="grid min-w-0 grid-cols-3 gap-3">
                 {menu.map((m) => (
-                  <button key={m.id} onClick={() => setScreen(m.id)} className={`min-h-20 rounded-xl px-5 py-3 text-xl font-bold leading-tight ${screen === m.id ? "bg-primary text-primary-foreground" : "bg-secondary text-secondary-foreground"}`}>{m.label}</button>
+                  <button key={m.id} onClick={() => setScreen(m.id)} className={`min-h-24 rounded-xl px-3 text-2xl font-bold leading-tight ${screen === m.id ? "bg-primary text-primary-foreground" : "bg-secondary text-secondary-foreground"}`}>{m.label}</button>
                 ))}
               </div>
             </nav>
           )}
 
-          <main className="min-h-0 flex-1 overflow-hidden p-10">
+          <main className={`min-h-0 flex-1 overflow-hidden ${screen === "home" ? "p-10" : "p-4"}`}>
             {screen === "home" && (
               <div className="grid h-full min-h-0 grid-rows-[auto_1fr_auto] gap-8 py-2">
                 <h1 className="font-display text-7xl font-bold leading-[1.15]">Olá! <span className="block text-primary">Como usar o totem?</span></h1>
@@ -115,24 +116,28 @@ function Totem() {
               </div>
             )}
             {screen === "menu" && (
-              <div className="grid h-full min-h-0 grid-rows-[auto_1fr] gap-8 py-2">
+              <div className="grid h-full min-h-0 grid-rows-[auto_1fr] gap-4">
                 <div className="flex items-center justify-between">
                   <h2 className="font-display text-7xl font-bold leading-tight">O que você precisa?</h2>
-                  <button onClick={() => setScreen("home")} aria-label="Início" className="rounded-xl border-2 bg-card p-6 text-primary"><Home className="h-10 w-10" /></button>
+                  <button onClick={() => setScreen("home")} aria-label="Início" className="flex h-28 w-28 items-center justify-center rounded-2xl border-2 bg-card text-primary"><Home className="h-14 w-14" /></button>
                 </div>
-                <div className="grid min-h-0 grid-rows-3 gap-6">
-                  {menu.map((m) => (
-                    <button key={m.id} onClick={() => setScreen(m.id)} className="group flex min-h-0 items-center gap-10 rounded-2xl border-2 border-border bg-card px-12 text-left transition-colors active:border-primary active:bg-accent">
-                      <span className="flex h-32 w-32 shrink-0 items-center justify-center rounded-2xl bg-secondary text-primary"><m.icon className="h-16 w-16" /></span>
-                      <span className="font-display text-5xl font-bold leading-tight text-foreground">{m.label}</span>
-                    </button>
+                <div className="grid min-h-0 grid-rows-[45fr_55fr] gap-4">
+                  {[menu.slice(0, 1), menu.slice(1)].map((row, ri) => (
+                    <div key={ri} className={`grid min-h-0 gap-4 ${ri ? "grid-cols-2" : ""}`}>
+                      {row.map((m) => (
+                        <button key={m.id} onClick={() => setScreen(m.id)} className="flex min-h-0 flex-col items-center justify-center gap-8 rounded-3xl border-2 border-border bg-card px-8 text-center transition-colors active:border-primary active:bg-accent">
+                          <span className={`flex shrink-0 items-center justify-center rounded-3xl bg-secondary text-primary ${ri ? "h-40 w-40" : "h-52 w-52"}`}><m.icon className={ri ? "h-24 w-24" : "h-32 w-32"} /></span>
+                          <span className={`font-display font-bold leading-tight text-foreground ${ri ? "text-6xl" : "text-7xl"}`}>{m.label}</span>
+                        </button>
+                      ))}
+                    </div>
                   ))}
                 </div>
               </div>
             )}
             {screen === "bus" && <BusFinder />}
             {screen === "fares" && <Fares />}
-            {screen === "feedback" && <Feedback onDone={() => setScreen("menu")} />}
+            {screen === "feedback" && <Feedback onDone={() => setScreen("menu")} onHome={goHome} />}
           </main>
         </div>
         <div className="min-h-0 border-t-4 border-primary">
