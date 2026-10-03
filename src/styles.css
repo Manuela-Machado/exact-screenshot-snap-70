@@ -59,6 +59,8 @@
   --color-ad-foreground: var(--ad-foreground);
   --font-display: "Lexend", system-ui, sans-serif;
   --font-sans: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --font-feedback-display: "Outfit", system-ui, sans-serif;
+  --font-feedback-body: "Figtree", system-ui, sans-serif;
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);

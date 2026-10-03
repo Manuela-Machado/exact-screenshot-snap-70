@@ -49,32 +49,48 @@ export function Feedback({ onDone, onHome }: { onDone: () => void; onHome: () =>
 
   const ok = stars > 0 && cat && line && day && time && msg;
   return (
-    <div className="grid h-full min-h-0 grid-rows-[auto_auto_1fr_auto] gap-5">
-      <h2 className="font-display text-6xl font-bold">Feedback</h2>
-      <div>
-        <span className="mb-2 block text-3xl font-bold">Como foi sua experiência?</span>
-        <div className="flex gap-4">
+    <div className="grid h-full min-h-0 grid-rows-[auto_1fr_auto] gap-6 font-feedback-body">
+      <h2 className="font-feedback-display text-6xl font-bold">Feedback</h2>
+
+      <div className="grid min-h-0 grid-rows-[auto_1fr] gap-7">
+        <section className="grid grid-cols-[minmax(0,1fr)_auto] items-center gap-8 border-b-2 border-border pb-7">
+          <div className="min-w-0">
+            <span className="font-feedback-display block text-4xl font-bold">Como foi sua experiência?</span>
+            <span className="mt-2 block text-2xl font-semibold text-muted-foreground">Toque nas estrelas para avaliar</span>
+          </div>
+          <div className="flex shrink-0 gap-3">
           {[1, 2, 3, 4, 5].map((n) => (
-            <button key={n} onClick={() => setStars(n)} aria-label={`${n} estrelas`} className="p-1">
-              <Star className={`h-28 w-28 ${n <= stars ? "fill-warning text-warning" : "text-muted-foreground"}`} />
+            <button key={n} onClick={() => setStars(n)} aria-label={`${n} estrelas`} className="p-2">
+              <Star className={`h-24 w-24 ${n <= stars ? "fill-warning text-warning" : "text-muted-foreground"}`} />
             </button>
           ))}
+          </div>
+        </section>
+
+        <section className="grid min-h-0 grid-cols-2 grid-rows-3 content-stretch gap-x-7 gap-y-6">
+          <div className="flex min-h-0 flex-col justify-center">
+            <TouchSelect label="Tipo de feedback" value={cat} onChange={(v) => { setCat(v); setMsg(""); }} options={opts(Object.keys(CATS))} />
+          </div>
+          <div className="flex min-h-0 flex-col justify-center">
+            <TouchSelect label="Linha" value={line} searchable onChange={(v) => { setLine(v); setTime(""); }} options={opts([NONE, ...LINES.map((l) => `${l.code} – ${l.name}`)])} />
+          </div>
+          <div className="flex min-h-0 flex-col justify-center">
+            <TouchSelect label="Dia da semana" value={day} onChange={(v) => { setDay(v); setTime(""); }} options={opts([NONE, ...DAYS])} />
+          </div>
+          <div className="flex min-h-0 flex-col justify-center">
+            <TouchSelect label="Horário" value={time} onChange={setTime} options={opts([NONE, ...times])} />
+          </div>
+          <div className="col-span-2 flex min-h-0 flex-col justify-center">
+            <TouchSelect label="Mensagem" value={msg} onChange={setMsg} placeholder={cat ? "Selecione…" : "Escolha primeiro o tipo de feedback"} options={opts((cat && CATS[cat]) || [])} />
+          </div>
         </div>
       </div>
-      <div className="grid min-h-0 grid-cols-2 content-start gap-5">
-        <TouchSelect label="Tipo de feedback" value={cat} onChange={(v) => { setCat(v); setMsg(""); }} options={opts(Object.keys(CATS))} />
-        <TouchSelect label="Linha" value={line} searchable onChange={(v) => { setLine(v); setTime(""); }} options={opts([NONE, ...LINES.map((l) => `${l.code} – ${l.name}`)])} />
-        <TouchSelect label="Dia da semana" value={day} onChange={(v) => { setDay(v); setTime(""); }} options={opts([NONE, ...DAYS])} />
-        <TouchSelect label="Horário" value={time} onChange={setTime} options={opts([NONE, ...times])} />
-        <div className="col-span-2">
-          <TouchSelect label="Mensagem" value={msg} onChange={setMsg} placeholder={cat ? "Selecione…" : "Escolha primeiro o tipo de feedback"} options={opts((cat && CATS[cat]) || [])} />
-        </div>
-      </div>
-      <div className="grid grid-cols-[1fr_auto] items-stretch gap-4">
-        <button disabled={!ok} onClick={() => setSent(true)} className="min-h-28 rounded-xl bg-primary px-8 text-4xl font-bold text-primary-foreground disabled:opacity-40">
+
+      <div className="grid grid-cols-[minmax(0,1fr)_auto] items-stretch gap-5 border-t-2 border-border pt-6">
+        <button disabled={!ok} onClick={() => setSent(true)} className="min-h-32 rounded-xl bg-primary px-8 font-feedback-display text-4xl font-bold text-primary-foreground disabled:opacity-40">
           Enviar feedback
         </button>
-        <div className="rounded-xl bg-muted px-8 py-4 text-3xl">
+        <div className="flex min-w-[390px] flex-col justify-center rounded-xl bg-secondary px-9 py-5 text-3xl text-secondary-foreground">
           <p className="font-bold">Fale com a SOGIL</p>
           <p className="mt-1 flex items-center gap-3"><Phone className="h-7 w-7" /> (51) 3484-8000</p>
           <p className="flex items-center gap-3"><Mail className="h-7 w-7" /> sac@sogil.com.br</p>
