@@ -10,3 +10,5 @@
 <!-- LOVABLE:END -->
 
 - Keep the kiosk shell at a responsive 5:8 aspect ratio with a fixed 3:1 interactive-to-ad grid so 1440×2304 displays preserve the intended composition.
+- Treat the complete semicolon-delimited SOGIL CSV as the schedule source of truth; its times are origin departures, while totem arrivals are estimated from routed travel duration.
+- Keep geocoding and OSRM routing client-side with persistent caches and graceful no-straight-line failure states because the kiosk currently has no backend.
