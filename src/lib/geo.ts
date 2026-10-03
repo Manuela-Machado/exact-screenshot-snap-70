@@ -20,12 +20,12 @@ const photon = (q: string, limit: number) => {
   return `https://photon.komoot.io/api/?q=${encodeURIComponent(`${q}, Gravataí, RS`)}&limit=${limit}&bbox=${w},${s},${e},${n}&lat=${TOTEM_LOCATION.lat}&lon=${TOTEM_LOCATION.lng}`;
 };
 
-type Feature = { geometry: { coordinates: LngLat }; properties: Record<string, string | undefined> };
+type Feature = { geometry: { coordinates: LngLat }; properties: Partial<Record<"name" | "street" | "housenumber" | "district" | "city", string>> };
 
 export type Suggestion = { id: string; label: string; detail: string; coord: LngLat };
 
 export async function suggest(q: string, signal?: AbortSignal): Promise<Suggestion[]> {
-  const r = await fetch(photon(q, 10), { signal });
+  const r = await fetch(photon(q, 10), { signal: signal ?? null });
   if (!r.ok) throw new Error("geo");
   const j = (await r.json()) as { features: Feature[] };
   const seen = new Set<string>();
