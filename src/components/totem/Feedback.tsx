@@ -83,7 +83,7 @@ export function Feedback({ onDone, onHome }: { onDone: () => void; onHome: () =>
           <div className="col-span-2 flex min-h-0 flex-col justify-center">
             <TouchSelect label="Mensagem" value={msg} onChange={setMsg} placeholder={cat ? "Selecione…" : "Escolha primeiro o tipo de feedback"} options={opts((cat && CATS[cat]) || [])} />
           </div>
-        </div>
+        </section>
       </div>
 
       <div className="grid grid-cols-[minmax(0,1fr)_auto] items-stretch gap-5 border-t-2 border-border pt-6">
