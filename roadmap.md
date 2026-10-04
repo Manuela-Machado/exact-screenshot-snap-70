@@ -13,4 +13,4 @@
 - [x] Import and validate 19 lines and 696 official schedule records.
 - [x] Read catalog data from Supabase with local fallback.
 - [x] Persist feedbacks, anonymous searches, geocoding, and route caches.
-- [ ] Verify RLS, fallback behavior, and the complete kiosk flow end to end.
+- [x] Verify RLS, fallback behavior, and the complete kiosk flow end to end.
