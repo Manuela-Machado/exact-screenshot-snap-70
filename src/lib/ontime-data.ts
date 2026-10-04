@@ -92,6 +92,14 @@ export function logSearch(values: { tipo: "linha" | "destino"; termo?: string; l
   void supabase.from("search_logs").insert({ totem_id: TOTEM_ID, ...values }).then(() => undefined);
 }
 
+export function startTotemSession() {
+  void supabase.from("totem_sessions").insert({ totem_id: TOTEM_ID, is_demo: false }).then(() => undefined);
+}
+
+export function sendTotemHeartbeat() {
+  void supabase.rpc("totem_heartbeat", { p_totem_id: TOTEM_ID }).then(() => undefined);
+}
+
 export async function submitFeedback(values: { nota: number; categoria_id: string; linha_codigo: string | null; dia_semana: string | null; horario: string | null; mensagem: string }) {
   const { error } = await supabase.from("feedbacks").insert({ totem_id: TOTEM_ID, ...values });
   if (error) throw error;

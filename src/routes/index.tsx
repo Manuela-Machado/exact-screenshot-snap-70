@@ -6,7 +6,7 @@ import { AdBanner } from "@/components/totem/AdBanner";
 import { BusFinder } from "@/components/totem/BusFinder";
 import { Fares } from "@/components/totem/Fares";
 import { Feedback } from "@/components/totem/Feedback";
-import { loadCatalog, LOCAL_CATALOG } from "@/lib/ontime-data";
+import { loadCatalog, LOCAL_CATALOG, sendTotemHeartbeat, startTotemSession } from "@/lib/ontime-data";
 import { LINES } from "@/lib/schedule";
 import { TOTEM_LOCATION } from "@/config/totem";
 import { TOTEM } from "@/lib/buses";
@@ -68,6 +68,12 @@ function Totem() {
     return () => window.removeEventListener("resize", fit);
   }, []);
 
+  useEffect(() => {
+    sendTotemHeartbeat();
+    const heartbeat = setInterval(sendTotemHeartbeat, 60000);
+    return () => clearInterval(heartbeat);
+  }, []);
+
   const goHome = useCallback(() => setScreen("home"), []);
   useEffect(() => {
     if (screen === "home") return;
@@ -125,7 +131,7 @@ function Totem() {
                     </li>
                   ))}
                 </ol>
-                <button onClick={() => setScreen("menu")} className="rounded-2xl bg-primary py-9 font-display text-5xl font-bold text-primary-foreground shadow-sm active:scale-[0.99]">Iniciar</button>
+                <button onClick={() => { startTotemSession(); setScreen("menu"); }} className="rounded-2xl bg-primary py-9 font-display text-5xl font-bold text-primary-foreground shadow-sm active:scale-[0.99]">Iniciar</button>
               </div>
             )}
             {screen === "menu" && (
