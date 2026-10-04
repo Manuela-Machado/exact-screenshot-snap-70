@@ -140,16 +140,19 @@ export type Database = {
       }
       feedback_categories: {
         Row: {
+          cor: string
           id: string
           nome: string
           ordem: number
         }
         Insert: {
+          cor?: string
           id: string
           nome: string
           ordem?: number
         }
         Update: {
+          cor?: string
           id?: string
           nome?: string
           ordem?: number
@@ -192,6 +195,7 @@ export type Database = {
           dia_semana: string | null
           horario: string | null
           id: string
+          is_demo: boolean
           linha_codigo: string | null
           mensagem: string
           nota: number
@@ -203,6 +207,7 @@ export type Database = {
           dia_semana?: string | null
           horario?: string | null
           id?: string
+          is_demo?: boolean
           linha_codigo?: string | null
           mensagem: string
           nota: number
@@ -214,6 +219,7 @@ export type Database = {
           dia_semana?: string | null
           horario?: string | null
           id?: string
+          is_demo?: boolean
           linha_codigo?: string | null
           mensagem?: string
           nota?: number
@@ -360,30 +366,74 @@ export type Database = {
           },
         ]
       }
+      totem_sessions: {
+        Row: {
+          id: string
+          is_demo: boolean
+          started_at: string
+          totem_id: string
+        }
+        Insert: {
+          id?: string
+          is_demo?: boolean
+          started_at?: string
+          totem_id: string
+        }
+        Update: {
+          id?: string
+          is_demo?: boolean
+          started_at?: string
+          totem_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "totem_sessions_totem_id_fkey"
+            columns: ["totem_id"]
+            isOneToOne: false
+            referencedRelation: "totems"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       totems: {
         Row: {
           ativo: boolean
+          bairro: string | null
           endereco: string
           id: string
+          is_demo: boolean
+          last_seen_at: string | null
           lat: number
           lng: number
           nome: string
+          parada: string | null
+          status_manual: string
         }
         Insert: {
           ativo?: boolean
+          bairro?: string | null
           endereco: string
           id: string
+          is_demo?: boolean
+          last_seen_at?: string | null
           lat: number
           lng: number
           nome: string
+          parada?: string | null
+          status_manual?: string
         }
         Update: {
           ativo?: boolean
+          bairro?: string | null
           endereco?: string
           id?: string
+          is_demo?: boolean
+          last_seen_at?: string | null
           lat?: number
           lng?: number
           nome?: string
+          parada?: string | null
+          status_manual?: string
         }
         Relationships: []
       }
@@ -392,7 +442,82 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      dashboard_feedbacks_por_categoria: {
+        Args: { p_fim: string; p_inicio: string }
+        Returns: {
+          categoria_id: string
+          cor: string
+          nome: string
+          percentual: number
+          total: number
+        }[]
+      }
+      dashboard_kpis: {
+        Args: { p_fim: string; p_inicio: string }
+        Returns: {
+          acessos_periodo: number
+          acessos_periodo_anterior: number
+          feedbacks_total: number
+          nota_media: number
+          totens_manutencao: number
+          totens_offline: number
+          totens_online: number
+          variacao_pct: number
+        }[]
+      }
+      dashboard_recomendacao: {
+        Args: { p_fim: string; p_inicio: string }
+        Returns: {
+          categoria_id: string
+          categoria_nome: string
+          hora_inicio: number
+          linha_codigo: string
+          linha_nome: string
+          total: number
+        }[]
+      }
+      dashboard_totens_reclamacoes: {
+        Args: { p_fim: string; p_inicio: string; p_limite?: number }
+        Returns: {
+          total: number
+          totem_id: string
+          totem_nome: string
+        }[]
+      }
+      painel_totens: {
+        Args: never
+        Returns: {
+          bairro: string
+          id: string
+          last_seen_at: string
+          lat: number
+          lng: number
+          nome: string
+          status: string
+        }[]
+      }
+      totem_heartbeat: { Args: { p_totem_id: string }; Returns: undefined }
+      ultimos_feedbacks: {
+        Args: {
+          p_fim: string
+          p_inicio: string
+          p_limite?: number
+          p_offset?: number
+        }
+        Returns: {
+          categoria_cor: string
+          categoria_id: string
+          categoria_nome: string
+          created_at: string
+          dia_semana: string
+          linha_codigo: string
+          linha_nome: string
+          mensagem: string
+          nota: number
+          totem_bairro: string
+          totem_nome: string
+        }[]
+      }
     }
     Enums: {
       [_ in never]: never
