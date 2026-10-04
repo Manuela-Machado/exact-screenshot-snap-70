@@ -14,3 +14,6 @@
 - [x] Read catalog data from Supabase with local fallback.
 - [x] Persist feedbacks, anonymous searches, geocoding, and route caches.
 - [x] Verify RLS, fallback behavior, and the complete kiosk flow end to end.
+- [x] Add anonymous session tracking and a silent 60-second totem heartbeat.
+- [x] Add read-only dashboard functions with limited public output.
+- [x] Prepare a separate, manual-only management dashboard demo seed.
