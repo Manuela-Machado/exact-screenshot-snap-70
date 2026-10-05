@@ -16,13 +16,14 @@ export const LOCAL_NOTICE = {
 };
 
 export const LOCAL_FEEDBACK = [
-  { id: "elogio", nome: "Elogio", messages: ["Motorista muito educado", "Ônibus limpo e confortável", "Chegou no horário", "Viagem tranquila e segura"] },
-  { id: "atraso", nome: "Atraso", messages: ["Ônibus atrasou mais de 15 minutos", "Ônibus não passou", "Horário diferente do informado"] },
+  { id: "elogio", nome: "Elogios", messages: ["Motorista muito educado", "Ônibus limpo e confortável", "Chegou no horário", "Viagem tranquila e segura"] },
+  { id: "atraso", nome: "Atraso de Linha", messages: ["Ônibus atrasou mais de 15 minutos", "Ônibus não passou", "Horário diferente do informado"] },
   { id: "superlotacao", nome: "Superlotação", messages: ["Ônibus muito cheio", "Não consegui embarcar", "Faltam ônibus neste horário"] },
   { id: "limpeza", nome: "Limpeza", messages: ["Ônibus sujo", "Bancos danificados", "Ar-condicionado/ventilação com problema"] },
   { id: "seguranca", nome: "Segurança", messages: ["Direção perigosa", "Motorista não parou na parada", "Me senti inseguro(a) no ônibus"] },
   { id: "acessibilidade", nome: "Acessibilidade", messages: ["Elevador não funciona", "Falta de espaço para cadeira de rodas", "Assento preferencial ocupado"] },
   { id: "outro", nome: "Outro", messages: ["Sugestão de melhoria", "Informação incorreta no totem", "Outro problema"] },
+  { id: "vandalismo", nome: "Vandalismo/Avaria", messages: ["Abrigo da parada com vidro quebrado.", "Banco ou assento danificado.", "Pichação ou sujeira intensa no ponto.", "Painel ou totem danificado.", "Iluminação do ponto queimada."] },
 ];
 
 export type Catalog = {
